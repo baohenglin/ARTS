@@ -31,7 +31,7 @@ Persist in solving an algorithmic question every week, reading an English techni
 
 |Theme|Articles|Remarks|
 |:--|:--|:--:
-Algorithmic|[《Week 1：》]()<br>[《Week 2：》]()<br>|Persist in solving an algorithmic question every week
-|Review|[《Week 1：》]()<br>|Persist in reading an English technical article every week
-|Technique|[《Week 1：》]()<br>|Persist in researching a new technology every week
-|Share|[《Week 1：》]()<br>|Persist in sharing a valuable point of view every week
+Algorithmic|[《Week 1：Algorithmic 1》2019.06.19]()<br>[《Week 2：Algorithmic 2》2019.06.24]()<br>|Persist in solving an algorithmic question every week
+|Review|[《Week 1：Review 1》2019.06.19]()<br>[《Week 2：Review 2》2019.06.24]()<br>|Persist in reading an English technical article every week
+|Technique|[《Week 1：Technique 1》2019.06.19]()<br>[《Week 2：Technique 2》2019.06.24]()<br>|Persist in researching a new technology every week
+|Share|[《Week 1：Share 1》2019.06.19]()<br>[《Week 2：Share 2》2019.06.24]()<br>|Persist in sharing a valuable point of view every week
