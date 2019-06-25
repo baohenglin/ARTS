@@ -112,8 +112,6 @@ Words or phrases:
 * (2)assume    假设
 * (3)exactly   准确地，确切地
 ***
-
-***
 C++语法：
 
 * 向量（Vector）是一个封装了动态大小数组的顺序容器（Sequence Container）。
