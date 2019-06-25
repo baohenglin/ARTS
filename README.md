@@ -24,14 +24,13 @@
 </p>
 
 
-
 ## *📖ARTS Plan*
 
 Persist in solving an algorithmic question every week, reading an English technical article, researching a new technology, sharing a valuable point of view, at least one year.
 
 |Theme|Articles|Remarks|
 |:--|:--|:--:
-Algorithmic|[《Week 1：Algorithmic 1》2019.06.19]()<br>[《Week 2：Algorithmic 2》2019.06.24]()<br>|Persist in solving an algorithmic question every week
+Algorithmic|[《Week 1：Algorithmic 1》2019.06.19](https://github.com/baohenglin/ARTS/blob/master/Articles/Algorithmic%201.md)<br>[《Week 2：Algorithmic 2》2019.06.24]()<br>|Persist in solving an algorithmic question every week
 |Review|[《Week 1：Review 1》2019.06.19]()<br>[《Week 2：Review 2》2019.06.24]()<br>|Persist in reading an English technical article every week
 |Technique|[《Week 1：Technique 1》2019.06.19]()<br>[《Week 2：Technique 2》2019.06.24]()<br>|Persist in researching a new technology every week
 |Share|[《Week 1：Share 1》2019.06.19]()<br>[《Week 2：Share 2》2019.06.24]()<br>|Persist in sharing a valuable point of view every week
