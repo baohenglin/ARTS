@@ -21,6 +21,8 @@ C++语法：
 * unordered_map和map的不同点：如果需要内部元素自动排序，使用map，不需要排序使用unordered_map
 
 **解法1:**
+
+```
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -43,3 +45,5 @@ public:
         return res;
     }
 };
+
+```
