@@ -7,9 +7,10 @@ Example:
     return [0, 1].
 ***
 Words or phrases:
-(1)indices   index的复数形式
-(2)assume    假设
-(3)exactly   准确地，确切地
+
+* (1)indices   index的复数形式
+* (2)assume    假设
+* (3)exactly   准确地，确切地
 ***
 
 **解法1:**
