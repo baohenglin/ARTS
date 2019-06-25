@@ -20,7 +20,7 @@ C++语法：
 * vector(int nSize,const t& t):创建一个vector，元素个数为nSize,且值均为t
 * unordered_map和map的不同点：如果需要内部元素自动排序，使用map，不需要排序使用unordered_map
 
-**解法1:**
+**C++解法1:**
 
 ```
 class Solution {
