@@ -27,7 +27,7 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int, int> m;
-        vector<int> res;
+        vector<int> result;
         for (int i = 0; i < nums.size(); ++i) {
             //向unordered_map类型的m中插入键值对
             m[nums[i]] = i;
@@ -47,3 +47,70 @@ public:
 };
 
 ```
+**C++解法2：**
+
+```
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int, int> m;
+        vector<int> result;
+        for(int i = 0; i < nums.size(); i++) {
+            if(m.find(target - nums[i]) == m.end()) {
+                m[nums[i]] = i;
+            }else {
+                result.push_back(m[ target - nums[i] ]);
+                result.push_back(i);
+                break;
+            }
+        }
+        return result;
+    }
+};
+```
+
+**Java解法1：**
+
+```
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        HashMap<Integer, Integer> m = new HashMap<Integer, Integer>();
+        int[] result = new int[2];
+        for (int i = 0; i < nums.length; i++) {
+            m.put(nums[i], i);
+        }
+        for(int i = 0; i < nums.length; i++) {
+            int t = target - nums[i];
+            if(m.containsKey(t) && m.get(t) != i) {
+                result[0] = i;
+                result[1] = m.get(t);
+                break;
+            }
+        }
+        return result;
+    }
+}
+```
+
+**Java解法2:**
+
+```
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        HashMap<Integer, Integer> m = new HashMap<Integer, Integer>();
+        int[] result = new int[2];
+        for(int i = 0; i < nums.length; i++) {
+            int t = target - nums[i];
+            if(m.containsKey(t) && m.get(t) != i) {
+                result[0] = i;
+                result[1] = m.get(t);
+                break;
+            }else {
+                m.put(nums[i], i);
+            }
+        }
+        return result;
+    }
+}
+```
+
