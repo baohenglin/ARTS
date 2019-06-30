@@ -1,4 +1,4 @@
-LeetCode 1:
+## LeetCode 1：Two Sum
 
 Given an array of integers, return indices(index的复数) of the two numbers such that they add up to a specific target.You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
@@ -8,10 +8,10 @@ Example:
     Because nums[0] + nums[1] = 2 + 7 = 9,
     return [0, 1].
 
-**解题思路：**
+## 解题思路：
 如果使用暴力搜索（遍历所有的两个数字的组合，然后算其和，这样虽然节省了空间，但是时间复杂度高）的话，那么该算法的时间复杂度为O(n^2)。我们知道HashMap是常数级查找速度，所以我们可以利用HashMap来使时间复杂度由O(n^2)降低为O(n)。步骤大致为：先遍历一遍数组，建立 HashMap 映射，然后再遍历一遍，开始查找，找到则记录 index。
 
-**C++解法1:**
+## C++解法1:
 
 ```
 class Solution {
@@ -38,7 +38,7 @@ public:
 };
 
 ```
-**C++解法2：**
+## C++解法2：
 
 ```
 class Solution {
@@ -60,7 +60,7 @@ public:
 };
 ```
 
-**Java解法1：**
+## Java解法1：
 
 ```
 class Solution {
@@ -83,7 +83,7 @@ class Solution {
 }
 ```
 
-**Java解法2:**
+## Java解法2：
 
 ```
 class Solution {
